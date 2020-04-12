@@ -10,6 +10,7 @@ EXPIRE_IN_MINUTE = 60
 MONGO_DB        = "ecommerceApp"
 MONGO_HOST      = localhost
 MONGO_PORT      = 27017
+
 `npm install`
 
 ## To start server
