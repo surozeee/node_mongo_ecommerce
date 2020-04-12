@@ -1,0 +1,44 @@
+{
+    "name": "backend",
+    "version": "0.0.0",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www --exec babel-node --presets es2015",
+        "prod": "nodemon ./bin/www",
+        "debug": "nodemon --inspect ./bin/www"
+    },
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "bcrypt": "^3.0.6",
+        "body-parser": "^1.19.0",
+        "colors": "^1.4.0",
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "dotenv": "^8.2.0",
+        "email-templates": "^7.0.4",
+        "enum": "^2.5.0",
+        "express": "~4.16.1",
+        "express-session": "^1.16.2",
+        "fcm-node": "^1.5.2",
+        "helmet": "^3.21.1",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-decode": "^2.2.0",
+        "mongoose": "^5.7.5",
+        "mongoose-to-swagger": "^1.0.3",
+        "morgan": "~1.9.1",
+        "node-cron": "^2.0.3",
+        "nodemailer": "^6.4.6",
+        "pug": "^2.0.4",
+        "swagger-jsdoc": "^4.0.0",
+        "swagger-ui-express": "^4.1.4",
+        "tracer": "^1.0.2",
+        "ws": "^7.2.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
