@@ -3,13 +3,20 @@
 `Create .env file and add this on that file`
 
 EMAIL_ADDRESS   = "gmail@gmail.com"
+
 EMAIL_PASSWORD  = "password"
+
 PORT            = 3000
+
 JWT_SECRET      = "anythihngyouwant"
+
 EXPIRE_IN_MINUTE = 60
+
 MONGO_DB        = "ecommerceApp"
+
 MONGO_HOST      = localhost
-MONGO_PORT      = 27017
+
+MONGO_PORT      = 27017`
 
 `npm install`
 
